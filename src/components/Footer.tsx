@@ -8,7 +8,7 @@ export function Footer() {
     },
     categories: {
       title: 'Categories',
-      links: ['Tutoring', 'Academic Writing', 'Programming', 'Design', 'Translation'],
+      links: ['Retail & Cashiering', 'Tutoring', 'Academic Writing', 'Programming', 'Design'],
     },
     resources: {
       title: 'Resources',
@@ -31,7 +31,7 @@ export function Footer() {
               <span className="text-white text-xl">CollabEd</span>
             </div>
             <p className="text-gray-500 mb-8 leading-relaxed">
-              Connecting local academic talent with opportunities.
+              Connecting businesses and individuals with fast, flexible personnel and local talent.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-11 h-11 bg-gray-900 border border-gray-800 rounded-xl flex items-center justify-center hover:bg-blue-600 hover:border-blue-600 transition-all group">

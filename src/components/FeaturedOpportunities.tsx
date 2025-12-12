@@ -65,7 +65,7 @@ export function FeaturedOpportunities() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between mb-16">
           <div>
-            <h2 className="text-white mb-3">Featured Opportunities</h2>
+            <h2 className="section-title-lg text-white mb-3">Featured Opportunities</h2>
             <p className="text-gray-400 text-lg">
               Hot gigs in your area right now
             </p>

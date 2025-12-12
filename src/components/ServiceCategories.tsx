@@ -1,4 +1,4 @@
-import { BookOpen, Pen, Palette, Code, Calculator, Languages, Music, Camera, Briefcase, Microscope, TrendingUp, FileText } from 'lucide-react';
+import { BookOpen, Pen, Palette, Code, Calculator, Languages, Music, Camera, Briefcase, Microscope, TrendingUp, FileText, ShoppingCart, Store } from 'lucide-react';
 
 export function ServiceCategories() {
   const categories = [
@@ -67,12 +67,20 @@ export function ServiceCategories() {
       glow: 'yellow-600/20',
     },
     {
+      icon: Store,
+      title: 'Retail & Cashiering',
+      count: '420',
+      description: 'Cashiering, Sales, Customer Service',
+      color: 'from-teal-600 to-teal-500',
+      glow: 'teal-600/20',
+    },
+    {
       icon: Briefcase,
       title: 'Business Services',
       count: '680',
       description: 'Marketing, Consulting, Admin',
-      color: 'from-teal-600 to-teal-500',
-      glow: 'teal-600/20',
+      color: 'from-indigo-600 to-indigo-500',
+      glow: 'indigo-600/20',
     },
     {
       icon: Microscope,
@@ -104,9 +112,9 @@ export function ServiceCategories() {
     <div className="py-28 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-20">
-          <h2 className="text-white mb-6">Browse by Category</h2>
+          <h2 className="section-title-lg text-white mb-6">Browse by Category</h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Explore thousands of services offered by talented students and instructors in your area.
+            Explore thousands of services offered by talented students, professionals, and flexible personnel in your area.
           </p>
         </div>
 

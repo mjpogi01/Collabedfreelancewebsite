@@ -14,10 +14,10 @@ export function Testimonials() {
     {
       id: 2,
       name: 'Marcus Johnson',
-      role: 'Business Owner',
+      role: 'Retail Store Owner',
       avatar: 'https://i.pravatar.cc/150?img=52',
       rating: 5,
-      text: 'I found an amazing graphic design student through CollabEd who created our entire brand identity. The local connection made collaboration so much easier.',
+      text: 'CollabEd has been a game-changer for my store! I found flexible, reliable students for cashiering and customer service. They work around their class schedules, and the local talent pool is amazing.',
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export function Testimonials() {
     <div className="py-28 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-20">
-          <h2 className="text-white mb-6">What Our Community Says</h2>
+          <h2 className="section-title-lg text-white mb-6">What Our Community Says</h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             Join thousands of students, instructors, and businesses who are already collaborating locally.
           </p>
@@ -75,9 +75,9 @@ export function Testimonials() {
           <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-30" />
           
           <div className="relative z-10">
-            <h2 className="text-white mb-6">Ready to Start Collaborating?</h2>
+            <h2 className="section-title-lg text-white mb-6">Ready to Start Collaborating?</h2>
             <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-lg leading-relaxed">
-              Join CollabEd today and connect with talented students and instructors in your area. Whether you're offering skills or looking for talent, we've got you covered.
+              Join CollabEd today and connect with talented students, professionals, and flexible personnel in your area. Whether you're a business owner needing staff or looking for opportunities, we've got you covered.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
               <button className="px-10 py-4 bg-white text-blue-600 rounded-xl hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl">

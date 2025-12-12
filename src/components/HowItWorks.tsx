@@ -5,7 +5,7 @@ export function HowItWorks() {
     {
       icon: Search,
       title: 'Search Locally',
-      description: 'Browse services and skills from students and instructors in your area using our map-based search.',
+      description: 'Browse services and skills from students, professionals, and flexible personnel in your area using our map-based search.',
     },
     {
       icon: Handshake,
@@ -29,7 +29,7 @@ export function HowItWorks() {
     {
       icon: Globe,
       title: 'Student-Focused',
-      description: 'Built for the academic community. Students and instructors offering real skills at competitive rates.',
+      description: 'Perfect for businesses and individuals. Find fast, flexible personnel for cashiering, retail, academic services, and more at competitive rates.',
       color: 'green',
     },
     {
@@ -51,9 +51,9 @@ export function HowItWorks() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* How It Works Section */}
         <div className="text-center mb-20">
-          <h2 className="text-white mb-6">How CollabEd Works</h2>
+          <h2 className="section-title-lg text-white mb-6">How CollabEd Works</h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Getting started is simple. Our platform makes it easy to find and work with local academic talent.
+            Getting started is simple. Our platform makes it easy to find and work with local talent for your business and academic needs.
           </p>
         </div>
 
@@ -76,9 +76,9 @@ export function HowItWorks() {
 
         {/* Key Features Section */}
         <div className="text-center mb-20">
-          <h2 className="text-white mb-6">Why Choose CollabEd?</h2>
+          <h2 className="section-title-lg text-white mb-6">Why Choose CollabEd?</h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            The only freelance platform designed specifically for localized academic collaboration.
+            The localized platform connecting businesses and individuals with fast, flexible personnel and academic talent.
           </p>
         </div>
 
